@@ -1,0 +1,1 @@
+Extract the ZIP and upload its contents to the root of your GitHub Pages repository. Keep the HTML, CSS, image files and CV PDF together. Research figures are excerpts from the supplied papers. Full research PDFs are not included. The CV uses the browser PDF viewer, with direct PDF access as a fallback.

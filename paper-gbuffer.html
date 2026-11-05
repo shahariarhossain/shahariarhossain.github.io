@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>G-buffer-guided feature modulation for lightweight rendered image super-resolution | Md Shahariar Hossain</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">MD SHAHARIAR HOSSAIN</a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="index.html">About</a>
+        <a href="publications.html" aria-current="page">Publications</a>
+        <a href="research.html">Research</a>
+        <a href="awards.html">Awards</a>
+        <a href="experience.html">Experience</a>
+        <a href="creative.html">Creative work</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <details class="mobile-menu">
+        <summary aria-label="Main navigation menu"><span aria-hidden="true"></span></summary>
+        <nav aria-label="Main navigation">
+        <a href="index.html">About</a>
+        <a href="publications.html" aria-current="page">Publications</a>
+        <a href="research.html">Research</a>
+        <a href="awards.html">Awards</a>
+        <a href="experience.html">Experience</a>
+        <a href="creative.html">Creative work</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      </details>
+    </div>
+  </header>
+  <main id="main">
+<article class="wrap page paper-detail">
+  <p><a href="publications.html">← All publications</a></p>
+  <p class="eyebrow">Array · Volume 32 · 2026 · Article 101324</p>
+  <h1>G-buffer-guided feature modulation for lightweight rendered image super-resolution</h1>
+  <p class="byline">M. S. Hossain, M. T. Hassan and A. Islam</p>
+  <h2>Abstract</h2>
+<p>Super-resolution of rendered images offers a practical way to reduce shading cost in real-time graphics, but recovering high-frequency details from low-resolution color buffers remains difficult under strict latency and memory constraints. In modern 3D-rendering pipelines, auxiliary G-buffer data provide spatially aligned scene cues often unavailable in natural-image super-resolution, yet the best way to exploit this guidance remains insufficiently studied. This paper proposes a unified Guided Super-Resolution (GSR) framework for reconstructing high-resolution rendered RGB images from low-resolution RGB inputs and high-resolution albedo guidance. We use a common dual-branch multi-scale structure to evaluate three architecture families with different fusion mechanisms: convolutional fusion, shifted-window cross-attention, and feature-wise linear modulation (FiLM). To support this study, we introduce a public dataset of 11,000 paired rendered RGB and albedo images from diverse Unreal Engine environments. Under matched training, experiments show that our largest FiLM-guided model achieves the highest mean PSNR/SSIM across 2×, 3×, and 4× upscaling. A ×4 ablation shows that the complete auxiliary pathway improves every model.</p>
+<h2>Keywords</h2>
+<p>Guided super-resolution; rendered image reconstruction; G-buffer guidance; albedo guidance; feature modulation; lightweight networks.</p>
+<h2>Highlights</h2>
+<ul>
+  <li>Aligned RGB and albedo inputs guide super-resolution.</li>
+  <li>The comparison covers convolution, attention, and FiLM.</li>
+  <li>FGSR-L achieved the highest mean PSNR and SSIM across the three tested scales among the evaluated architectures.</li>
+  <li>At 4×, FGSR-L exceeded SwinIR by 1.82 dB.</li>
+  <li>The public dataset contains 11,000 RGB–albedo pairs.</li>
+</ul>
+<p><a class="button secondary" href="https://huggingface.co/datasets/ShahariarXYZ/g-buffer-guided-sr">Open dataset ↗</a></p>
+<figure class="detail-figure"><img src="gbuffer.png" alt="Author-supplied graphical abstract showing the guidance inputs, fusion methods, and upscaled output"><figcaption>Graphical abstract supplied by the author</figcaption></figure>
+<figure class="detail-figure"><img src="gbuffer-figure.jpg" alt="Rendered-image comparisons from the Array article" loading="lazy"><figcaption>Rendered-image comparisons from the Array article</figcaption></figure>
+  <p><a class="button" href="https://www.sciencedirect.com/science/article/pii/S2590005626006478">Open publisher page ↗</a></p><p>DOI <a href="https://doi.org/10.1016/j.array.2026.101324">10.1016/j.array.2026.101324</a></p>
+</article>
+  </main>
+  <nav class="wrap page-links" aria-label="Page navigation"><a href="publications.html">← All publications</a> <a href="paper-forward-pass.html">Next paper →</a></nav>
+  <footer><div class="wrap footer-inner"><span>Md Shahariar Hossain</span><a href="contact.html">Contact</a></div></footer>
+</body>
+</html>
