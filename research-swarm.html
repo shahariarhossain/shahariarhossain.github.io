@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Autonomous systems &amp; swarm robotics | Md Shahariar Hossain</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">MD SHAHARIAR HOSSAIN</a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="index.html">About</a>
+        <a href="publications.html">Publications</a>
+        <a href="research.html" aria-current="page">Research</a>
+        <a href="awards.html">Awards</a>
+        <a href="experience.html">Experience</a>
+        <a href="creative.html">Creative work</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <details class="mobile-menu">
+        <summary aria-label="Main navigation menu"><span aria-hidden="true"></span></summary>
+        <nav aria-label="Main navigation">
+        <a href="index.html">About</a>
+        <a href="publications.html">Publications</a>
+        <a href="research.html" aria-current="page">Research</a>
+        <a href="awards.html">Awards</a>
+        <a href="experience.html">Experience</a>
+        <a href="creative.html">Creative work</a>
+        <a href="cv.html">CV</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      </details>
+    </div>
+  </header>
+  <main id="main">
+<article class="wrap page paper-detail">
+  <p><a href="research.html">← All research</a></p>
+  <p class="eyebrow">Ongoing research · 2026–present · BSRM School of Engineering, BRAC University</p>
+  <h1>Autonomous systems &amp; swarm robotics</h1>
+  <p class="byline">Research Assistant · Supervisor: Md Arif Billah, Ph.D., Assistant Professor, Department of Electrical and Electronic Engineering</p>
+  <h2>Overview</h2>
+<p>A group of simple mobile robots has to solve two problems at once: stay together as a coherent swarm, and make progress toward a goal in the environment. Social coordination on its own does not tell the group where to go, while each robot chasing its own local readings can pull the group apart. My research looks at how a swarm can do both with very little information: each robot senses only one local quantity from its surroundings, such as a concentration or a signal strength, and robots do not send each other messages.</p>
+<h2>Current work</h2>
+<p>I am extending a visual coordination approach inspired by how insects track small moving targets. In it, each robot reacts to the motion of a selected neighbour. On top of this social behaviour, every robot links changes in its own local reading to the turns it recently made, keeps that evidence in a short-term memory, and turns it into a steering cue. Because neighbours react to each other's motion, a change in one robot's heading can also influence the robots watching it, without any explicit communication. I am studying this idea in simulation with stationary, moving and multiple sources, comparing different memory designs and a randomised reference strategy, and preparing it for validation on physical robots.</p>
+<p>A manuscript on this work is in preparation.</p>
+<h2>Methods &amp; tools</h2>
+<p>State-space modeling and feedback control of swarm agents; nonlinear dynamics in MATLAB simulation; 3D robot design in Autodesk Fusion; a five-agent swarm platform on low-cost edge hardware; reinforcement learning and latent-state world models for adaptive trajectories and autonomous control.</p>
+<h2>Keywords</h2>
+<p>Swarm robotics; visual coordination; scalar fields; source seeking; temporal memory; motion-mediated interaction.</p>
+
+<figure class="detail-figure"><img src="swarm-simulation.png" alt="MATLAB simulation of swarm agent trajectories converging on three scalar-field sources" loading="lazy"><figcaption>Swarm source-seeking simulation in MATLAB</figcaption></figure>
+</article>
+  </main>
+  <nav class="wrap page-links" aria-label="Page navigation"><a href="research.html">← All research</a> <a href="awards.html">Next · Awards →</a></nav>
+  <footer><div class="wrap footer-inner"><span>Md Shahariar Hossain</span><a href="contact.html">Contact</a></div></footer>
+</body>
+</html>
